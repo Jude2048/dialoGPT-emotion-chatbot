@@ -23,6 +23,36 @@ evaluate.py     # Evaluation metrics
 
 DailyDialog dataset with emotion labels.
 
+## Dataset Setup
+
+This project uses the DailyDialog dataset.
+
+Due to size constraints, the dataset is not included in this repository.
+
+### Steps to use:
+
+1. Download DailyDialog dataset from:
+   https://aclanthology.org/I17-1099/
+
+2. Place files in the following structure:
+
+sample_data/
+
+    Train/
+─ dialogues_train.txt
+─ dialogues_emotion_train.txt
+─ dialogues_act_train.txt
+
+    Test/
+─ dialogues_test.txt
+─ dialogues_emotion_test.txt
+─ dialogues_act_test.txt
+
+    Validation/
+─ dialogues_validation.txt
+─ dialogues_emotion_validation.txt
+─ dialogues_act_validation.txt
+
 ## Technologies
 - Python
 - PyTorch
