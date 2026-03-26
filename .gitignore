@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data
+sample_data/
+*.csv
+
+# model files
+model/
+*.bin
+
+# logs
+*.log
